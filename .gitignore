@@ -129,3 +129,8 @@ dmypy.json
 .pyre/
 
 .idea/
+
+.vscode/
+
+# Test file created as a part of a pOC
+goda_text_file.txt

@@ -184,3 +184,5 @@ list1 = range(1, 11)
 iterator = iter(list1)
 print(next(iterator))
 print(next(iterator))
+
+# Tuple is an immutable list - not trying now. Anything we can do with list can be done with tuple except modifying them.

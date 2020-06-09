@@ -156,3 +156,25 @@ print(goda_list.reverse())
 goda_list.reverse()
 print(goda_list[-1])
 print(goda_list[::2])
+
+# While loop
+i = 0
+while i < len(goda_list):
+    print(goda_list[i])
+    i += 1
+
+genereated_list = [x**2 for x in range(1, 11) if x % 2 == 0]
+print(genereated_list)
+
+function = (x**2 for x in range(1, 11) if x % 2 == 0)
+
+for generator_number in function:
+    print("Generator number: ", generator_number)
+
+j = 0
+while(j < 10):
+    if j % 2 == 0:
+        print("even")
+    elif(j % 2 != 0):
+        print("odd")
+    j += 1

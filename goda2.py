@@ -178,3 +178,9 @@ while(j < 10):
     elif(j % 2 != 0):
         print("odd")
     j += 1
+
+# Iterators
+list1 = range(1, 11)
+iterator = iter(list1)
+print(next(iterator))
+print(next(iterator))

@@ -134,3 +134,6 @@ dmypy.json
 
 # Test file created as a part of a pOC
 goda_text_file.txt
+
+#database file
+goda.db
